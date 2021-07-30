@@ -6,7 +6,7 @@ import { FaUserTie } from "react-icons/fa";
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <Headline 
                 title={'Who are we?'}
                 icon={<FaUserTie className="headline-icon"/>}

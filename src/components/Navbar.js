@@ -26,10 +26,10 @@ const Navbar = () => {
       </div>
       <nav className={click ? 'show' : 'hide'}>
         <div className="container">
-          <Link to="/Services" onClick={closeMobileMenu}>Services</Link>
-          <Link to="/About" onClick={closeMobileMenu}>About Us</Link>
-          <Link to="/work" onClick={closeMobileMenu}>Our Work</Link>
-          <Link to="/Letstalk" onClick={closeMobileMenu}>Lets Talk! <img src={ hands } alt="hands illustration"/></Link>
+          <Link to="#services" onClick={closeMobileMenu}>Services</Link>
+          <Link to="#about" onClick={closeMobileMenu}>About Us</Link>
+          <Link to="#projects" onClick={closeMobileMenu}>Our Work</Link>
+          <Link to="#contact" onClick={closeMobileMenu}>Lets Talk! <img src={ hands } alt="hands illustration"/></Link>
         </div>
       </nav>
     </header>

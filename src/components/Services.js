@@ -23,7 +23,7 @@ const Services = () => {
     }
 
     return (
-        <div className="services">
+        <div className="services" id="services">
             <ul className="services-top">
                 <ServiceCard 
                     src={img1}

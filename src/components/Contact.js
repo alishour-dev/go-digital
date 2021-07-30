@@ -38,7 +38,7 @@ const Contact = () => {
 
     return (
 
-        <div className="contact">
+        <div className="contact" id="contact">
             <Headline 
                 title={'Got an idea?'}
                 icon={<FcIdea className="headline-icon"/>}
