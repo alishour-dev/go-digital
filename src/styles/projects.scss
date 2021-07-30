@@ -1,0 +1,75 @@
+@import "../styles/resets.scss";
+
+.use-bootstrap {
+    @import "bootstrap/scss/bootstrap";
+}
+
+.projects {
+    width: 100%;
+    padding-top: 12rem;
+    background-image: $gradient;
+
+    .projects-container {
+        width: 100%;
+        @include flexy;
+        flex-direction: column;
+        margin-top: 5rem;
+
+        .top-projects, .bottom-projects {
+            width: 100%;
+            @include flexy;
+            flex-direction: column;
+        }
+
+        .bottom-projects {
+            visibility: hidden;
+            opacity: 0;
+            height: 0px;
+            transform: scale(0);
+            transform-origin: top;
+        }
+    
+        .show-bottom {
+            transition: all .6s ease-in;
+            visibility: visible;
+            opacity: 1;
+            height: unset;
+            transform: scale(1);
+        }
+    
+        .hide-bottom {
+            visibility: hidden;
+            opacity: 0;
+            height: 0px;
+            transform: scale(0);
+        }
+
+        .card {
+            width: 80%;
+            max-width: 40rem;
+            @include flexy;
+            flex-direction: column;
+            padding: .8rem;
+            background: $bg-light;
+            border-radius: 4px;
+            margin-bottom: 4rem;
+            cursor: pointer;
+            @include svg-hov;
+
+            .info {
+                margin-top: .8rem;
+                padding: 0 .8rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+        
+                .arrow {
+                    @include ic-mob;
+                    color: $bg-dark;
+                }
+            }
+        }
+        
+    }
+}

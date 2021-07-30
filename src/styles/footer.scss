@@ -1,0 +1,51 @@
+@import "./resets.scss";
+
+
+.footer {
+    width: 100%;
+    background-color: #898789;
+    color: $bg-light;
+    @include flexy;
+    flex-direction: column;
+
+    .social-icons {
+        width: 100%;
+        @include flexy;
+        justify-content: space-around;
+        margin: 4rem auto;
+        @include ic-mob;
+
+        .circle {
+            width: 4rem;
+            height: 4rem;
+            @include flexy;
+            border-radius: 50%;
+            background-color: $bg-light;
+            transition: all 0.3s ease-out;
+
+            &:hover, &:active {
+                transition: all 0.3s ease-in;
+                background-color: $bg-gold;
+
+                .ic {
+                    color: $bg-gold-dark;
+                }
+            }
+
+            .ic {
+                color: #898789;
+            }
+        }
+    }
+
+    .copyrights {
+        @include flexy;
+        flex-wrap: wrap;
+        margin: 0 auto 4rem auto;
+
+        .copy-ic {
+            @include ic-mob;
+            margin: 0 .8rem;
+        }
+    }
+}
