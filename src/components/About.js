@@ -17,6 +17,7 @@ const About = () => {
                     src="../images/about-img.png"
                     alt="About Us"
                     className="static-img"
+                    placeholder="blurred"
                 />
             </div>
             <div className="right">
