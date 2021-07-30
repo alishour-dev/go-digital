@@ -22,7 +22,7 @@ const Projects = () => {
     }
 
     return (
-        <div className="projects" id="proj">
+        <div className="projects" id="projects">
             <Headline 
                 title={'What we did?'}
                 icon={<MdWork className="headline-icon"/>}

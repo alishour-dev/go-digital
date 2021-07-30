@@ -17,7 +17,7 @@ const Hero = () => {
             </div>
             <div className="left">
                 <h1>Let’s <span>Grow</span><br />Your <span>Business</span><br />to the <span>Next Level</span></h1>
-                <Link to="#proj" className="btn"><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
+                <Link to="#projects" className="btn"><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
                 <div className="scroll">
                     <p>Scroll for<br />more</p>
                     <BsChevronDoubleDown />
