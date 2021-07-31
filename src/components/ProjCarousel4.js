@@ -3,9 +3,8 @@ import { graphql, useStaticQuery } from 'gatsby'
 import { GatsbyImage } from "gatsby-plugin-image"
 import "../styles/projects.scss"
 import { Carousel } from 'react-bootstrap'
-import CardStructure from './CardStructure'
 
-const ProjCard4 = ({alt}) => {
+const ProjCarousel4 = ( { alt, carouselClass, fadeSlide, controls, touch, indicators } ) => {
 
     const data = useStaticQuery(graphql`
         query {
@@ -28,23 +27,19 @@ const ProjCard4 = ({alt}) => {
     `)
 
     return (
-        <CardStructure
-            info = { 'Lazio - Shushi & Italian Cuisine' }
-        >
-            <div className="img-container use-bootstrap">
-                <Carousel fade controls={false} touch={false} indicators={false}>
-                    {data.gallery.edges.map(({node}) => (
-                        <Carousel.Item key={node.id}>
-                            <GatsbyImage 
-                                image={node.childImageSharp.gatsbyImageData}
-                                alt={alt}
-                            />
-                        </Carousel.Item>
-                    ))}
-                </Carousel>
-            </div>
-        </CardStructure >
+        <div className={ carouselClass }>
+            <Carousel fade={fadeSlide} controls={controls} touch={touch} indicators={indicators}>
+                {data.gallery.edges.map(({node}) => (
+                    <Carousel.Item key={node.id}>
+                        <GatsbyImage 
+                            image={node.childImageSharp.gatsbyImageData}
+                            alt={alt}
+                        />
+                    </Carousel.Item>
+                ))}
+            </Carousel>
+        </div>
     )
 }
 
-export default ProjCard4
+export default ProjCarousel4

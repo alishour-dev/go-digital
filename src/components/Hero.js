@@ -10,6 +10,7 @@ import heroHand from "../images/hero-hand.svg"
 import Headline from './Headline';
 
 const Hero = () => {
+
     return (
         <div className="hero">
             <div className="right">
@@ -17,7 +18,7 @@ const Hero = () => {
             </div>
             <div className="left">
                 <h1>Let’s <span>Grow</span><br />Your <span>Business</span><br />to the <span>Next Level</span></h1>
-                <Link to="#projects" role="button" tabIndex={0} className="btn" onKeyDown={ parsePath('#projects') }><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
+                <Link to="#projects" role="button" tabIndex={0} className="btn" onKeyDown={ () =>  parsePath('#projects') }><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
                 <div className="scroll">
                     <p>Scroll for<br />more</p>
                     <BsChevronDoubleDown />

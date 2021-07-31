@@ -3,14 +3,15 @@ import "../styles/projects.scss"
 import Headline from './Headline'
 import { MdWork } from "react-icons/md";
 import { CgAdd, CgRemove } from "react-icons/cg";
-import ProjCard1 from './ProjCard1';
-import ProjCard2 from './ProjCard2';
-import ProjCard3 from './ProjCard3';
-import ProjCard4 from './ProjCard4';
-import ProjCard5 from './ProjCard5';
-import ProjCard6 from './ProjCard6';
-import ProjCard7 from './ProjCard7';
-import ProjCard8 from './ProjCard8';
+import ProjCarousel1 from './ProjCarousel1';
+import ProjCarousel2 from './ProjCarousel2';
+import ProjCarousel3 from './ProjCarousel3';
+import ProjCarousel4 from './ProjCarousel4';
+import ProjCarousel5 from './ProjCarousel5';
+import ProjCarousel6 from './ProjCarousel6';
+import ProjCarousel7 from './ProjCarousel7';
+import ProjCarousel8 from './ProjCarousel8';
+import CardStructure from './CardStructure';
 
 
 const Projects = () => {
@@ -30,32 +31,94 @@ const Projects = () => {
             />
             <div className="projects-container">
                 <div className="top-projects">
-                    <ProjCard1 
-                        alt = { 'first Project' }
-                    />
-                    <ProjCard2 
-                        alt = { 'first Project' }
-                    />
-                    <ProjCard3 
-                        alt = { 'first Project' }
-                    />
-                    <ProjCard4 
-                        alt = { 'first Project' }
-                    />
+                    <CardStructure info = { 'Mocassin Store IG Campaign' }>
+                        <ProjCarousel1 
+                            alt = { 'Mocassin Store social media Images' }
+                            carouselClass = { 'img-container use-bootstrap' }
+                            fadeSlide = { true }
+                            controls = { false }
+                            touch = { false }
+                            indicators = { false }
+                         />
+                    </CardStructure>
+                    
+                    <CardStructure info = { 'Al-Nabelsi Snack IG Campaign' }>
+                        <ProjCarousel2 
+                            alt = { 'Al-Nabelsi Snack menu Images' }
+                            carouselClass = { 'img-container use-bootstrap' }
+                            fadeSlide = { true }
+                            controls = { false }
+                            touch = { false }
+                            indicators = { false }
+                         />
+                    </CardStructure>
+
+                    <CardStructure info = { 'Family Dental Care - By Dr. Fouani' }>
+                        <ProjCarousel3 
+                            alt = { 'Family Dental Care Images' }
+                            carouselClass = { 'img-container use-bootstrap' }
+                            fadeSlide = { true }
+                            controls = { false }
+                            touch = { false }
+                            indicators = { false }
+                         />
+                    </CardStructure>
+
+                    <CardStructure info = { 'Lazio - Shushi & Italian Cuisine' }>
+                        <ProjCarousel4 
+                            alt = { 'Lazio restaurant Images' }
+                            carouselClass = { 'img-container use-bootstrap' }
+                            fadeSlide = { true }
+                            controls = { false }
+                            touch = { false }
+                            indicators = { false }
+                         />
+                    </CardStructure>
                 </div>
                 <div className={`bottom-projects ${toggle ? 'show-bottom' : 'hide-bottom'}`}>
-                    <ProjCard5 
-                        alt = { 'first Project' }
-                    />
-                    <ProjCard6 
-                        alt = { 'first Project' }
-                    />
-                    <ProjCard7 
-                        alt = { 'first Project' }
-                    />
-                    <ProjCard8 
-                        alt = { 'first Project' }
-                    />
+                    <CardStructure info = { 'Diva Med Center IG ad campaign' }>
+                        <ProjCarousel5 
+                            alt = { 'Diva Medical Center marketing Images' }
+                            carouselClass = { 'img-container use-bootstrap' }
+                            fadeSlide = { true }
+                            controls = { false }
+                            touch = { false }
+                            indicators = { false }
+                        />
+                    </CardStructure>
+
+                    <CardStructure info = { 'HIC with the best certified courses!' }>
+                        <ProjCarousel6 
+                            alt = { 'HIC Images' }
+                            carouselClass = { 'img-container use-bootstrap' }
+                            fadeSlide = { true }
+                            controls = { false }
+                            touch = { false }
+                            indicators = { false }
+                        />
+                    </CardStructure>
+
+                    <CardStructure info = { 'Nutri Fit - Run by Jinan Trad' }>
+                        <ProjCarousel7 
+                            alt = { 'Nutri Fit social media Images' }
+                            carouselClass = { 'img-container use-bootstrap' }
+                            fadeSlide = { true }
+                            controls = { false }
+                            touch = { false }
+                            indicators = { false }
+                        />
+                    </CardStructure>
+
+                    <CardStructure info = { 'Optimal - Multifunctional high chairs' }>
+                        <ProjCarousel8 
+                            alt = { 'Optimal marketing Images' }
+                            carouselClass = { 'img-container use-bootstrap' }
+                            fadeSlide = { true }
+                            controls = { false }
+                            touch = { false }
+                            indicators = { false }
+                        />
+                    </CardStructure>
                 </div>
                 <div className='btn' role="button" tabIndex={0} onClick={toggleHandler} onKeyDown={toggleHandler}><h5>{ toggle ? 'view less' : 'view more' }</h5>{ toggle ? <CgRemove className="btn-icon"/> : <CgAdd className="btn-icon"/>}</div>
             </div>
