@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from "gatsby"
+import { Link, parsePath } from "gatsby"
 import "../styles/hero.scss"
 import { BsChevronDoubleDown, BsBriefcaseFill } from "react-icons/bs";
 import { AiOutlineThunderbolt } from "react-icons/ai";
@@ -17,7 +17,7 @@ const Hero = () => {
             </div>
             <div className="left">
                 <h1>Let’s <span>Grow</span><br />Your <span>Business</span><br />to the <span>Next Level</span></h1>
-                <Link to="#projects" className="btn"><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
+                <Link to="#projects" role="button" tabIndex={0} className="btn" onKeyDown={ parsePath('#projects') }><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
                 <div className="scroll">
                     <p>Scroll for<br />more</p>
                     <BsChevronDoubleDown />

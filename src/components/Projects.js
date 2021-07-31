@@ -57,7 +57,7 @@ const Projects = () => {
                         alt = { 'first Project' }
                     />
                 </div>
-                <div className='btn' onClick={toggleHandler}><h5>{ toggle ? 'view less' : 'view more' }</h5>{ toggle ? <CgRemove className="btn-icon"/> : <CgAdd className="btn-icon"/>}</div>
+                <div className='btn' role="button" tabIndex={0} onClick={toggleHandler} onKeyDown={toggleHandler}><h5>{ toggle ? 'view less' : 'view more' }</h5>{ toggle ? <CgRemove className="btn-icon"/> : <CgAdd className="btn-icon"/>}</div>
             </div>
         </div>
     )

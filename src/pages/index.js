@@ -8,7 +8,12 @@ import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 
 const IndexPage = () => (
-  <Layout>
+  <Layout
+    servicesPath = {'#services'}
+    aboutPath = {'#about'}
+    projectsPath = {'#projects'}
+    contactPath = {'#contact'}
+  >
     <Seo title="Home" />
     <Hero />
     <Services />

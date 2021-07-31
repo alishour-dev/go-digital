@@ -45,12 +45,25 @@ const Contact = () => {
                 info={'Let’s help you grow and boost your sales!'}
             />
             <div className="left-info">
-                <img src={guy} alt="contact info" />
+                <img src={guy} alt="contact information" />
             </div>
             <div className="form-container">
-                <img src={phone} alt="form image" className="phone"/>
-                <form className="form" onSubmit={handleSubmit} name="contact" method="post" action="/thanks/" data-netlify="true" data-netlify-honeypot="bot-field">
-                    <input className="hidden" type="hidden" name="form-name" value="contact" />
+                <img src={phone} alt="form structure" className="phone"/>
+                <form 
+                    className="form" 
+                    onSubmit={handleSubmit} 
+                    name="contact" 
+                    method="post" 
+                    action="/thanks/" 
+                    data-netlify="true" 
+                    data-netlify-honeypot="bot-field"
+                >
+                    <input type="hidden" name="contact" value="contact" />
+                    <p className="hidden">
+                        <label id="contact-form-bot-label"
+                            >Don't fill this out if you're human: <input name="bot-field" aria-labelledby="contact-form-bot-label"
+                        /></label>
+                    </p>
                     <div className="row">
                         <input type="text" name="name" onChange={handleChange} placeholder="Full name"/>
                     </div>
@@ -60,7 +73,7 @@ const Contact = () => {
                     <div className="row">
                         <label>
                             Interested in:
-                            <select onChange={handleChange}>
+                            <select name="option" onChange={handleChange}>
                                 <option name="instagram" value="instagram">Instagram Campaign</option>
                                 <option name="facebook" value="facebook">Facebook Campaign</option>
                                 <option name="billboards" value="billboards">Billborads</option>

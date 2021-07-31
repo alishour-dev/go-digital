@@ -1,0 +1,51 @@
+@import "./resets.scss";
+
+
+.thanks {
+    height: calc(100vh - 268px);
+    @include flexy;
+    flex-direction: column;
+    text-align: center;
+    background: $gradient;
+    color: $bg-dark;
+
+    h1 {
+        font-size: 6rem;
+        word-wrap: break-word;
+        margin-bottom: 4rem;
+    }
+
+    p {
+        font-size: 2.4rem;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .back {
+        background: $bg-gold;
+        width: 12rem;
+        height: 12rem;
+        border-radius: 50%;
+        @include flexy;
+        border: 1px solid $bg-dark;
+        margin-top: 6rem;
+        transition: all .6s ease-out;
+
+        &:hover, &:active {
+            transition: all .3s ease-in;
+            background: $bg-light;
+            border-color: $bg-gold-dark;
+
+            .back-ic {
+                color: $bg-gold-dark;
+                transition: all .3s ease-in;
+            }
+        }
+
+        .back-ic {
+            font-size: 6rem;
+            color: $bg-dark;
+        }
+
+    }
+}

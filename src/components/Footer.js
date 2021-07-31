@@ -1,4 +1,3 @@
-import { Link } from 'gatsby';
 import React from 'react'
 import { FaFacebookF, FaWhatsapp, FaInstagram, FaRegCopyright } from "react-icons/fa";
 import "../styles/footer.scss"
@@ -8,13 +7,13 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="social-icons">
-                <a href="https://www.facebook.com/godigitaldesignn/" target="_blank" className="circle">
+                <a href="https://www.facebook.com/godigitaldesignn/" target="_blank" rel="noopener noreferrer" className="circle">
                     <FaFacebookF className="ic"/>
                 </a>
-                <a href="https://www.instagram.com/godigitaldesign/" target="_blank" className="circle">
+                <a href="https://www.instagram.com/godigitaldesign/" target="_blank" rel="noopener noreferrer" className="circle">
                     <FaInstagram className="ic"/>
                 </a>
-                <a href="https://wa.me/+96178971073" target="_blank" className="circle">
+                <a href="https://wa.me/+96178971073" target="_blank" rel="noopener noreferrer" className="circle">
                     <FaWhatsapp className="ic"/>
                 </a>
             </div>
