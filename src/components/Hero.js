@@ -21,7 +21,7 @@ const Hero = () => {
                 <Link to="#projects" role="button" tabIndex={0} className="btn" onKeyDown={ () =>  parsePath('#projects') }><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
                 <div className="scroll">
                     <p>Scroll for<br />more</p>
-                    <BsChevronDoubleDown />
+                    <BsChevronDoubleDown className="scroll-ic"/>
                 </div>
             </div>
             <div className="bottom">

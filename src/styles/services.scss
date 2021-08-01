@@ -74,3 +74,38 @@
         transform: scale(0);
     }
 }
+
+@media screen and (min-width: 768px) {
+    .services {
+        position: relative;
+        z-index: 1;
+        padding-top: 8rem;
+        // margin-bottom: 12rem;
+    
+        .services-top {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: repeat(3, auto);
+            justify-items: center;
+            align-items: center;
+            
+            .card {
+                margin: 0 auto;
+                margin-bottom: 6rem;
+            }
+        }
+
+        .services-bottom {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: repeat(2, auto);
+            justify-items: center;
+            align-items: center;
+            
+            .card {
+                margin: 0 auto;
+                margin-bottom: 6rem;
+            }
+        }
+    }
+}
