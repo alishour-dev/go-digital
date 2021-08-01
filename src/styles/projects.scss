@@ -73,3 +73,25 @@
         
     }
 }
+
+@media screen and (min-width: 768px) {
+    .projects {
+    
+        .projects-container {
+            margin-top: 6rem;
+    
+            .top-projects, .bottom-projects {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
+                grid-template-rows: repeat(2, auto);
+                justify-items: center;
+                align-items: center;
+            }
+
+            .card {
+                margin-bottom: 6rem;
+            }
+        }
+    }
+}

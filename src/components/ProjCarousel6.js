@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import "../styles/projects.scss"
 import { Carousel } from 'react-bootstrap'
 
-const ProjCarousel6 = ( { alt, carouselClass, fadeSlide, controls, touch, indicators } ) => {
+const ProjCarousel6 = ( { alt, carouselClass, fadeSlide, controls, touch, indicators, interval } ) => {
 
     const data = useStaticQuery(graphql`
         query {
@@ -30,7 +30,7 @@ const ProjCarousel6 = ( { alt, carouselClass, fadeSlide, controls, touch, indica
         <div className={ carouselClass }>
             <Carousel fade={fadeSlide} controls={controls} touch={touch} indicators={indicators}>
                 {data.gallery.edges.map(({node}) => (
-                    <Carousel.Item key={node.id}>
+                    <Carousel.Item key={node.id} interval = {interval}>
                         <GatsbyImage 
                             image={node.childImageSharp.gatsbyImageData}
                             alt={alt}

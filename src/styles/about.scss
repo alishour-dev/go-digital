@@ -17,7 +17,7 @@
             
             &:hover {
                 transition: all .4s ease-in;
-                transform: scale(1.01);  
+                transform: scale(1.03);  
             }
         }
     }
@@ -44,6 +44,14 @@
             z-index: -1;
             background-color: #FFEDB4;
             border-radius: 4px;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about {
+        .left {
+            margin-top: 6rem;
         }
     }
 }

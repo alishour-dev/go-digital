@@ -39,6 +39,7 @@ const Projects = () => {
                             controls = { false }
                             touch = { false }
                             indicators = { false }
+                            interval = {1000}
                          />
                     </CardStructure>
                     
@@ -50,6 +51,7 @@ const Projects = () => {
                             controls = { false }
                             touch = { false }
                             indicators = { false }
+                            interval = {1300}
                          />
                     </CardStructure>
 
@@ -61,6 +63,7 @@ const Projects = () => {
                             controls = { false }
                             touch = { false }
                             indicators = { false }
+                            interval = {1200}
                          />
                     </CardStructure>
 
@@ -72,6 +75,7 @@ const Projects = () => {
                             controls = { false }
                             touch = { false }
                             indicators = { false }
+                            interval = {1400}
                          />
                     </CardStructure>
                 </div>
@@ -84,6 +88,7 @@ const Projects = () => {
                             controls = { false }
                             touch = { false }
                             indicators = { false }
+                            interval = {1200}
                         />
                     </CardStructure>
 
@@ -95,6 +100,7 @@ const Projects = () => {
                             controls = { false }
                             touch = { false }
                             indicators = { false }
+                            interval = {1280}
                         />
                     </CardStructure>
 
@@ -106,6 +112,7 @@ const Projects = () => {
                             controls = { false }
                             touch = { false }
                             indicators = { false }
+                            interval = {1000}
                         />
                     </CardStructure>
 
@@ -117,6 +124,7 @@ const Projects = () => {
                             controls = { false }
                             touch = { false }
                             indicators = { false }
+                            interval = {1000}
                         />
                     </CardStructure>
                 </div>
