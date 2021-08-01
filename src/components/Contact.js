@@ -44,53 +44,55 @@ const Contact = () => {
                 icon={<FcIdea className="headline-icon"/>}
                 info={'Let’s help you grow and boost your sales!'}
             />
-            <div className="left-info">
-                <img src={guy} alt="contact information" />
+            <div className="contact-container">
+                <div className="left-info">
+                    <img src={guy} alt="contact information" />
+                </div>
+                <div className="form-container">
+                    <img src={phone} alt="form structure" className="phone"/>
+                    <form 
+                        className="form" 
+                        onSubmit={handleSubmit} 
+                        name="contact" 
+                        method="post" 
+                        action="/thanks/" 
+                        data-netlify="true" 
+                        data-netlify-honeypot="bot-field"
+                    >
+                        <input type="hidden" name="contact" value="contact" />
+                        <p className="hidden">
+                            <label id="contact-form-bot-label"
+                                >Don't fill this out if you're human: <input name="bot-field" aria-labelledby="contact-form-bot-label"
+                            /></label>
+                        </p>
+                        <div className="row">
+                            <input type="text" name="name" onChange={handleChange} placeholder="Full name"/>
+                        </div>
+                        <div className="row">
+                            <input type="email" name="email" onChange={handleChange} placeholder="Email"/>
+                        </div>
+                        <div className="row">
+                            <label>
+                                Interested in:
+                                <select name="option" onChange={handleChange}>
+                                    <option name="instagram" value="instagram">Instagram Campaign</option>
+                                    <option name="facebook" value="facebook">Facebook Campaign</option>
+                                    <option name="billboards" value="billboards">Billborads</option>
+                                    <option name="package" value="package">Full Package</option>
+                                    <option name="other" value="other">Other</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div className="row">
+                            <textarea name="message" onChange={handleChange} placeholder="Message"/>
+                        </div>
+                        <div className="row custom-row">
+                            <input type="submit" />
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div className="form-container">
-                <img src={phone} alt="form structure" className="phone"/>
-                <form 
-                    className="form" 
-                    onSubmit={handleSubmit} 
-                    name="contact" 
-                    method="post" 
-                    action="/thanks/" 
-                    data-netlify="true" 
-                    data-netlify-honeypot="bot-field"
-                >
-                    <input type="hidden" name="contact" value="contact" />
-                    <p className="hidden">
-                        <label id="contact-form-bot-label"
-                            >Don't fill this out if you're human: <input name="bot-field" aria-labelledby="contact-form-bot-label"
-                        /></label>
-                    </p>
-                    <div className="row">
-                        <input type="text" name="name" onChange={handleChange} placeholder="Full name"/>
-                    </div>
-                    <div className="row">
-                        <input type="email" name="email" onChange={handleChange} placeholder="Email"/>
-                    </div>
-                    <div className="row">
-                        <label>
-                            Interested in:
-                            <select name="option" onChange={handleChange}>
-                                <option name="instagram" value="instagram">Instagram Campaign</option>
-                                <option name="facebook" value="facebook">Facebook Campaign</option>
-                                <option name="billboards" value="billboards">Billborads</option>
-                                <option name="package" value="package">Full Package</option>
-                                <option name="other" value="other">Other</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div className="row">
-                        <textarea name="message" onChange={handleChange} placeholder="Message"/>
-                    </div>
-                    <div className="row custom-row">
-                        <input type="submit" />
-                    </div>
-                </form>
             </div>
-        </div>
     )
 }
 
