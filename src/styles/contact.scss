@@ -163,24 +163,23 @@
 
 @media screen and (min-width: 768px) {
     .contact {
-
+        padding-left: 2rem;
         .contact-container {
+            margin-top: 8rem;
             width: 100%;
-            @include flexy;
-            flex-direction: row;
-            align-items: flex-end;
+            display: flex;
 
             .left-info {
                 margin-top: 0;
                 height: 62rem;
-                width: 100%;
+                width: 50%;
                 display: flex;
                 justify-content: flex-end;
                 align-items: flex-end;
                 bottom: 0x;
         
                 img {
-                    width: 34rem;
+                    width: 36rem;
                 }
             }
         }
@@ -190,8 +189,8 @@
         .form-container {
             width: 309.594px;
             height: 62rem;
-            @include flexy; 
-            margin: 0 auto;
+            // @include flexy; 
+            margin-left: -.4rem;
             position: relative;
     
             img {
