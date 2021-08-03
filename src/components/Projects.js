@@ -21,7 +21,7 @@ const Projects = () => {
     const toggleHandler = () => {
         setToggle(!toggle)
     }
-l
+
     return (
         <div className="projects" id="projects">
             <Headline 
