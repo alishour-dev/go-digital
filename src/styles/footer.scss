@@ -40,7 +40,7 @@
 
     .copyrights {
         @include flexy;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         margin: 0 auto 4rem auto;
 
         .copy-ic {
@@ -60,6 +60,7 @@
 
         .social-icons {
             width: 50%;
+            max-width: 40rem;
             
             .ic {
                 color: #898789;
@@ -67,9 +68,10 @@
         }
     
         .copyrights {
-            @include flexy;
+            width: 50%;
             flex-wrap: wrap;
             margin: 0;
+            padding: 0 4rem;
     
             .copy-ic {
                 @include ic-mob;

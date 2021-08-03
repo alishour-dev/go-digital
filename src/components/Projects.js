@@ -21,7 +21,7 @@ const Projects = () => {
     const toggleHandler = () => {
         setToggle(!toggle)
     }
-
+l
     return (
         <div className="projects" id="projects">
             <Headline 
@@ -55,7 +55,7 @@ const Projects = () => {
                          />
                     </CardStructure>
 
-                    <CardStructure info = { 'Family Dental Care - By Dr. Fouani' }>
+                    <CardStructure info = { 'Family Dental Care, Dr. Fouani' }>
                         <ProjCarousel3 
                             alt = { 'Family Dental Care Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -92,7 +92,7 @@ const Projects = () => {
                         />
                     </CardStructure>
 
-                    <CardStructure info = { 'HIC with the best certified courses!' }>
+                    <CardStructure info = { 'HIC, The best certified courses!' }>
                         <ProjCarousel6 
                             alt = { 'HIC Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -116,7 +116,7 @@ const Projects = () => {
                         />
                     </CardStructure>
 
-                    <CardStructure info = { 'Optimal - Multifunctional high chairs' }>
+                    <CardStructure info = { 'Optimal: Functional & affordable' }>
                         <ProjCarousel8 
                             alt = { 'Optimal marketing Images' }
                             carouselClass = { 'img-container use-bootstrap' }

@@ -52,26 +52,29 @@
     }
 
     .services-bottom {
-        visibility: hidden;
         opacity: 0;
-        height: 0px;
-        transform: scale(0);
-        transform-origin: top;
+        display: none;
     }
 
     .show-bottom {
-        transition: all .6s ease-in;
-        visibility: visible;
+        display: flex;
         opacity: 1;
-        height: unset;
-        transform: scale(1);
+        animation: slide .6s ease-in forwards;
+
+        @keyframes slide {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
     }
 
     .hide-bottom {
-        visibility: hidden;
+        transition: all .3s ease-in-out;
         opacity: 0;
-        height: 0px;
-        transform: scale(0);
+        display: none;
     }
 }
 
@@ -106,6 +109,15 @@
                 margin: 0 auto;
                 margin-bottom: 6rem;
             }
+        }
+    
+        .show-bottom {
+            display: grid;
+        }
+    
+        .hide-bottom {
+            opacity: 0;
+            display: none;
         }
     }
 }
