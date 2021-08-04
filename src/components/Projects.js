@@ -27,7 +27,7 @@ const Projects = () => {
             <Headline 
                 title={'What we did?'}
                 icon={<MdWork className="headline-icon"/>}
-                info={'Check out some our featured work, and get inspired!'}
+                info={'Check out some of our featured work, and get inspired!'}
             />
             <div className="projects-container">
                 <div className="top-projects">
