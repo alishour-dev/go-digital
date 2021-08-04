@@ -46,7 +46,10 @@ const Projects = () => {
                         />
                     </CardStructure>
                     
-                    <CardStructure info = { 'Al-Nabelsi Snack IG Campaign' }>
+                    <CardStructure
+                        info = { 'Al-Nabelsi Snack IG Campaign' }
+                        projLink = { '/project2' }
+                    >
                         <ProjCarousel2 
                             alt = { 'Al-Nabelsi Snack menu Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -58,7 +61,10 @@ const Projects = () => {
                          />
                     </CardStructure>
 
-                    <CardStructure info = { 'Family Dental Care, Dr. Fouani' }>
+                    <CardStructure
+                        info = { 'Family Dental Care, Dr. Fouani' }
+                        projLink = { '/project3' }
+                    >
                         <ProjCarousel3 
                             alt = { 'Family Dental Care Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -70,7 +76,10 @@ const Projects = () => {
                          />
                     </CardStructure>
 
-                    <CardStructure info = { 'Lazio - Shushi & Italian Cuisine' }>
+                    <CardStructure
+                        info = { 'Lazio - Shushi & Italian Cuisine' }
+                        projLink = { '/project4' }
+                    >
                         <ProjCarousel4 
                             alt = { 'Lazio restaurant Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -83,7 +92,10 @@ const Projects = () => {
                     </CardStructure>
                 </div>
                 <div className={`bottom-projects ${toggle ? 'show-bottom' : 'hide-bottom'}`}>
-                    <CardStructure info = { 'Diva Med Center IG ad campaign' }>
+                    <CardStructure
+                        info = { 'Diva Med Center IG ad campaign' }
+                        projLink = { '/project5' }
+                    >
                         <ProjCarousel5 
                             alt = { 'Diva Medical Center marketing Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -95,7 +107,10 @@ const Projects = () => {
                         />
                     </CardStructure>
 
-                    <CardStructure info = { 'HIC, The best certified courses!' }>
+                    <CardStructure
+                        info = { 'HIC, The best certified courses!' }
+                        projLink = { '/project6' }
+                    >
                         <ProjCarousel6 
                             alt = { 'HIC Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -107,7 +122,10 @@ const Projects = () => {
                         />
                     </CardStructure>
 
-                    <CardStructure info = { 'Nutri Fit - Run by Jinan Trad' }>
+                    <CardStructure
+                        info = { 'Nutri Fit - Run by Jinan Trad' }
+                        projLink = { '/project7' }
+                    >
                         <ProjCarousel7 
                             alt = { 'Nutri Fit social media Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -119,7 +137,10 @@ const Projects = () => {
                         />
                     </CardStructure>
 
-                    <CardStructure info = { 'Optimal: Functional & affordable' }>
+                    <CardStructure
+                        info = { 'Optimal: Functional & affordable' }
+                        projLink = { '/project8' }
+                    >
                         <ProjCarousel8 
                             alt = { 'Optimal marketing Images' }
                             carouselClass = { 'img-container use-bootstrap' }

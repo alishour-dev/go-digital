@@ -32,7 +32,8 @@
         .prev, .next {
             @include flexy;
             flex-direction: column;
-            padding: .4rem 1.2rem;
+            padding: .4rem 0;
+            width: 12rem;
             background: $bg-light;
             border-radius: .4rem;
             border: 2px solid $bg-gold-dark;

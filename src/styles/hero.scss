@@ -13,6 +13,7 @@
     }
 
     .right {
+        margin-top: -3.6rem;
         width: 100%;
         height: auto;
         @include flexy;
@@ -34,7 +35,7 @@
         height: auto;
         @include flexy;
         flex-direction: column;
-        margin: 4rem auto;
+        margin: 5rem auto;
         
         h1 {
             text-align: center;
@@ -73,7 +74,7 @@
         transform: translateX(-50%);
         width: 85%;
         background: $bg-light;
-        padding: .8rem 1.6rem;
+        padding: .8rem;
         border-radius: 16px 16px 0px 0px;
     }
 }

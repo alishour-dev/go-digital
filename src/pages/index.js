@@ -25,23 +25,3 @@ const IndexPage = () => (
 )
 
 export default IndexPage
-
-// export const pageQuery = graphql`
-//   query {
-//     gallery: allFile(
-//       filter: {relativeDirectory: {eq: "proj-1"}}
-//       sort: {fields: base, order: ASC}
-//     ) {
-//       edges {
-//         node {
-//           id
-//           base
-//           publicURL
-//           childImageSharp {
-//             gatsbyImageData(placeholder: BLURRED, webpOptions: {quality: 50})
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
