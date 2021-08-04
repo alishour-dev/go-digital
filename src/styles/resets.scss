@@ -135,9 +135,6 @@ h3, h4, h5 {
 }
 
 h3 {
-    // Desktop
-    // font-size: 2.2rem;
-    // line-height: 2.8rem;
     font-size: 1.8rem;
     line-height: 2.4rem;
 }
@@ -163,9 +160,6 @@ h1, h2 {
 }
 
 h1 {
-    // Desktop
-    // font-size: 4.6rem;
-    // line-height: 5.7rem;
     font-size: 4rem;
     line-height: 5rem;
 }
@@ -235,5 +229,54 @@ a {
 
     h3 {
         max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+
+    @mixin ic-mob {
+        font-size: 2.4rem;
+    }
+
+    h1 {
+        font-size: 4.6rem;
+        line-height: 5.7rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    
+    h3 {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+    }
+    
+    .btn {
+        .btn-icon {
+            margin-left: 1rem;
+        }
+    }
+    
+    .headline {
+        .title {
+            margin-bottom: .6rem;
+    
+            .headline-icon {
+                margin-right: 1rem;
+            }
+        }
+    }
+
+    .about, .projects, .contact {
+        .headline {
+            align-items: flex-start;
+            margin: 0 0 8rem 6rem;
+        
+            .title {
+                margin-bottom: 1.2rem;
+            }
+        }
     }
 }

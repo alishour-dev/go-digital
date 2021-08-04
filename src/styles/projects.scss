@@ -91,8 +91,12 @@
                 align-items: center;
             }
 
+            .btn {
+                margin-top: 3rem;
+            }
+
             .card {
-                margin-bottom: 6rem;
+                margin: 3rem;
             }
 
             .show-bottom {
@@ -102,6 +106,27 @@
             .hide-bottom {
                 opacity: 0;
                 display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1080px) {
+
+    .projects {
+        padding-top: 14rem;
+    
+        .projects-container {
+            margin-top: 0;
+            width: 90%;
+            margin: 0 auto;
+
+            .card {
+                margin: 4rem 3rem;
+            }
+    
+            .btn {
+                margin-top: 4rem;
             }
         }
     }

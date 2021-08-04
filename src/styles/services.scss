@@ -121,3 +121,32 @@
         }
     }
 }
+
+@media screen and (min-width: 1080px) {
+    .services {
+        padding-top: 8rem;
+        margin-bottom: 14rem;
+    
+        .services-top {
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: repeat(2, auto);
+            
+            .card {
+                margin: 3rem 4rem;
+            }
+        }
+
+        .services-bottom {
+            grid-template-columns: repeat(3, auto);
+            grid-template-rows: auto;
+            
+            .card {
+                margin: 3rem 4rem;
+            }
+        }
+    
+        .btn {
+            margin-top: 3rem;
+        }
+    }
+}

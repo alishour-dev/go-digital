@@ -18,10 +18,12 @@ const Hero = () => {
             </div>
             <div className="left">
                 <h1>Let’s <span>Grow</span><br />Your <span>Business</span><br />to the <span>Next Level</span></h1>
-                <Link to="#projects" role="button" tabIndex={0} className="btn" onKeyDown={ () =>  parsePath('#projects') }><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
-                <div className="scroll">
-                    <p>Scroll for<br />more</p>
-                    <BsChevronDoubleDown className="scroll-ic"/>
+                <div className="cta">
+                    <Link to="#projects" role="button" tabIndex={0} className="btn" onKeyDown={ () =>  parsePath('#projects') }><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>
+                    <div className="scroll">
+                        <p>Scroll for<br />more</p>
+                        <BsChevronDoubleDown className="scroll-ic"/>
+                    </div>
                 </div>
             </div>
             <div className="bottom">
