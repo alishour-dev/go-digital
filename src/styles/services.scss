@@ -83,7 +83,6 @@
         position: relative;
         z-index: 1;
         padding-top: 8rem;
-        // margin-bottom: 12rem;
     
         .services-top {
             display: grid;
@@ -147,6 +146,23 @@
     
         .btn {
             margin-top: 3rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .services {
+        padding-top: 8rem;
+        margin-bottom: 14rem;
+    
+        .services-top, .services-bottom {
+            .card {
+                margin: 4rem 5rem;
+            }
+        }
+    
+        .btn {
+            margin-top: 4rem;
         }
     }
 }

@@ -280,3 +280,24 @@ a {
         }
     }
 }
+
+@media screen and (min-width: 1450px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+
+
