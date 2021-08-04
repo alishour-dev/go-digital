@@ -31,7 +31,10 @@ const Projects = () => {
             />
             <div className="projects-container">
                 <div className="top-projects">
-                    <CardStructure info = { 'Mocassin Store IG Campaign' }>
+                    <CardStructure 
+                        info = { 'Mocassin Store IG Campaign' }
+                        projLink = { '/project1' }
+                    >
                         <ProjCarousel1 
                             alt = { 'Mocassin Store social media Images' }
                             carouselClass = { 'img-container use-bootstrap' }
@@ -40,7 +43,7 @@ const Projects = () => {
                             touch = { false }
                             indicators = { false }
                             interval = {1000}
-                         />
+                        />
                     </CardStructure>
                     
                     <CardStructure info = { 'Al-Nabelsi Snack IG Campaign' }>

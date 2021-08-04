@@ -1,17 +1,18 @@
 import React from 'react'
+import { Link } from "gatsby"
 import { BsArrowRightShort } from "react-icons/bs";
 import "../styles/projects.scss"
 
-const CardStructure = ({ children, info }) => {
+const CardStructure = ({ children, info, projLink }) => {
     
     return (
-        <div className="card">
+        <Link to={ projLink } className="card">
             {children}
             <div className="info">
                 <p>{ info }</p>
                 <BsArrowRightShort className="arrow"/>
             </div>
-        </div>
+        </Link>
     )
 }
 

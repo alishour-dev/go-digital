@@ -1,0 +1,121 @@
+@import "./resets.scss";
+
+.project-page {
+    padding: 6rem 0;
+    width: 100%;
+    @include flexy;
+    flex-direction: column;
+    background: $gradient;
+
+    h1 {
+        max-width: 85%;
+        font-size: 3.2rem;
+    }
+
+    .img-container {
+        max-width: 90%;
+        margin: 2rem 0 4rem 0;
+    }
+
+    p {
+        max-width: 85%;
+    }
+
+    .projNav {
+        width: 90%;
+        max-width: 70rem;
+        @include flexy;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 4rem;
+
+        .prev, .next {
+            @include flexy;
+            flex-direction: column;
+            padding: .4rem 1.2rem;
+            background: $bg-light;
+            border-radius: .4rem;
+            border: 2px solid $bg-gold-dark;
+            color: $bg-gold-dark;
+
+            p {
+                max-width: unset;
+            }
+
+            .arrow {
+                font-size: 3.4rem;
+                transition: all .6s ease-out;
+            }
+
+            &:hover, &:active {
+                transition: all .3s ease-in;
+                color: $bg-dark;
+                background-color: $bg-gold;
+                border-color: $bg-dark;
+        
+                .arrow {
+                    transition: all .3s ease-in;
+                    color: $bg-dark;
+                }
+            }
+            transition: all .6s ease-out;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .project-page {
+        padding: 8rem 0;
+    
+        .img-container {
+            max-width: 62rem;
+            margin: 4rem 0;
+        }
+    
+        p {
+            max-width: 60rem;
+        }
+    
+        .projNav {
+            margin-top: 6rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1080px) {
+    .project-page {
+        padding: 10rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, auto);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        
+        h1 {
+            grid-area: 1 / 1 / 2 / 2;
+        }
+
+        .img-container {
+            grid-area: 1 / 2 / 3 / 3;
+            width: 70%;
+            max-width: 62rem;
+            margin: 0;
+        }
+    
+        p {
+            grid-area: 2 / 1 / 3 / 2; 
+            padding: 0 4rem;
+            max-width: 60rem;
+        }
+    
+        .projNav {
+            grid-area: 3 / 1 / 4 / 3;
+            margin-top: 12rem;
+            p {
+                padding: 0;
+                max-width: unset;
+            }
+        }
+    }
+}

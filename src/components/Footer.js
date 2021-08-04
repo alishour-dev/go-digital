@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from "gatsby"
 import { FaFacebookF, FaWhatsapp, FaInstagram, FaRegCopyright } from "react-icons/fa";
 import "../styles/footer.scss"
+import Logo from "../images/logo.svg"
 
 
 const Footer = () => {
@@ -23,6 +25,9 @@ const Footer = () => {
                 <p>2018-2021 GoDigitalDesign.</p>
                 <p>All rights reserved.</p>
             </div>
+            <Link to="/" className="logo">
+                <img src={Logo} alt="Go Digital Design logo" />
+            </Link>
         </div>
     )
 }
