@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link } from "gatsby"
-import "../styles/navbar.scss"
+import "../styles/main.scss"
 
 // Images
 import logo from "../images/logo.svg"

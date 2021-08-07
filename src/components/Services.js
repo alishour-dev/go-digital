@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import ServiceCard from './ServiceCard'
-import "../styles/services.scss"
+import "../styles/main.scss"
 import { CgAdd, CgRemove } from "react-icons/cg";
+
+import { gsap, Power3 } from "gsap";
 
 // Images
 import img1 from "../images/services/service-1.svg"
@@ -21,6 +23,20 @@ const Services = () => {
     const toggleHandler = () => {
         setToggle(!toggle)
     }
+
+    useEffect(() => {
+
+        let t1 = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".services-top",
+                start: "top 80%",
+                pin: "true"
+                // toggleActions: "restart complete reverse reset"
+            }
+        });
+
+        t1.from(".services-top", { y: "100", opacity: 0, duration: 2, ease: Power3.easeOut,})
+    }, [])
 
     return (
         <div className="services" id="services">

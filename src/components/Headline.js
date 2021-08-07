@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Headline = ({title, icon, info}) => {
+const Headline = ({title, icon, info, customClass}) => {
     return (
-        <div className="headline">
+        <div className={`headline ${customClass}`}>
             <div className="title">
                 { icon }
                 <h2>{title}</h2>

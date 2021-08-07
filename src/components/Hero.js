@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link, parsePath } from "gatsby"
-import "../styles/hero.scss"
+import "../styles/main.scss"
 import { BsChevronDoubleDown, BsBriefcaseFill } from "react-icons/bs";
 import { AiOutlineThunderbolt } from "react-icons/ai";
+
+import { gsap, Power3 } from "gsap";
 
 // Images
 import heroImg from "../images/hero-img.svg"
@@ -11,12 +13,20 @@ import Headline from './Headline';
 
 const Hero = () => {
 
+    useEffect(() => {
+
+        let t1 = gsap.timeline();
+
+        t1.from(".left-hero", { x: "-150", opacity: 0, duration: 2, ease: Power3.easeOut})
+        .from(".right-hero", {x: "150", opacity: 0, duration: 2, ease: Power3.easeOut}, "-=2")
+    })
+
     return (
         <div className="hero">
-            <div className="right">
+            <div className="right-hero">
                 <img src={heroImg} alt="You're Going Viral!!" />
             </div>
-            <div className="left">
+            <div className="left-hero">
                 <h1>Let’s <span>Grow</span><br />Your <span>Business</span><br />to the <span>Next Level</span></h1>
                 <div className="cta">
                     <Link to="#projects" role="button" tabIndex={0} className="btn" onKeyDown={ () =>  parsePath('#projects') }><h5>See Work</h5><BsBriefcaseFill className="btn-icon"/></Link>

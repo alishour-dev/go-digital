@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { navigate } from 'gatsby-link'
-import "../styles/contact.scss"
+import "../styles/main.scss"
 import Headline from './Headline'
 import phone from "../images/phone.svg"
 import guy from "../images/guy.svg"

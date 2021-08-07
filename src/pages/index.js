@@ -7,7 +7,12 @@ import About from "../components/About"
 import Projects from "../components/Projects"
 import Contact from "../components/Contact"
 
+import gsap from "gsap";
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger);
+
 const IndexPage = () => (
+  
   <Layout
     servicesPath = {'#services'}
     aboutPath = {'#about'}

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "gatsby"
 import { BsArrowRightShort } from "react-icons/bs";
-import "../styles/projects.scss"
+import "../styles/main.scss"
 
 const CardStructure = ({ children, info, projLink }) => {
     
