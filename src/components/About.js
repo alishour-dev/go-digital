@@ -12,7 +12,7 @@ const About = () => {
         let t1 = gsap.timeline({
             scrollTrigger: {
                 trigger: ".about",
-                start: "center 80%",
+                start: "top 80%",
                 end: "bottom",
                 toggleActions: "restart complete reverse reset"
             }

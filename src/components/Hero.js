@@ -19,6 +19,7 @@ const Hero = () => {
 
         t1.from(".left-hero", { x: "-150", opacity: 0, duration: 2, ease: Power3.easeOut})
         .from(".right-hero", {x: "150", opacity: 0, duration: 2, ease: Power3.easeOut}, "-=2")
+        .from(".bottom", {y: "150", opacity: 0, duration: 2, ease: Power3.easeOut}, "-=1")
     })
 
     return (
