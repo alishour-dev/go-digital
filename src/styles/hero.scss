@@ -5,6 +5,7 @@
     height: calc(100vh - 8rem);
     background-image: $gradient;
     @include flexy;
+    justify-content: space-between;
     flex-direction: column;
     position: relative;
 
@@ -13,14 +14,14 @@
     }
 
     .right-hero {
-        margin-top: -3.6rem;
+        padding-top: 2rem;
         width: 100%;
         height: auto;
         @include flexy;
 
         img {
             width: 65%;
-            max-width: 29.8rem;
+            max-width: 30rem;
             transition: all .6s ease-out;
 
             &:hover {
@@ -35,7 +36,7 @@
         height: auto;
         @include flexy;
         flex-direction: column;
-        margin: 5rem auto;
+        margin-bottom: 1rem;
         
         h1 {
             text-align: center;
@@ -45,7 +46,7 @@
             }
         }
         .cta {
-            margin: 4rem auto;
+            margin: 4rem auto 0 auto;
             a {
                 .btn-icon {
                     transform: rotate(-5deg);
@@ -68,10 +69,6 @@
     }
 
     .bottom {
-        position: absolute;
-        bottom: -1px;
-        left: 50%;
-        transform: translateX(-50%);
         width: 85%;
         background: $bg-light;
         padding: .8rem;
