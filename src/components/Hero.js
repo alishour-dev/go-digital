@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link, parsePath } from "gatsby"
-import "../styles/main.scss"
+import "../styles/hero.scss"
 import { BsChevronDoubleDown, BsBriefcaseFill } from "react-icons/bs";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 

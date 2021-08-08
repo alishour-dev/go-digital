@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-import "../styles/main.scss"
+import "../styles/thanks.scss"
 import { GoHome } from "react-icons/go";
 import { Link } from 'gatsby';
 

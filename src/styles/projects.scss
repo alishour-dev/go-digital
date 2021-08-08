@@ -1,3 +1,5 @@
+@import "../styles/resets.scss";
+
 .use-bootstrap, #use-bootstrap {
     @import "bootstrap/scss/bootstrap";
 }
@@ -110,6 +112,7 @@
 }
 
 @media screen and (min-width: 1080px) {
+
     .projects {
         padding-top: 14rem;
     
@@ -130,6 +133,7 @@
 }
 
 @media screen and (min-width: 1200px) {
+
     .projects {
         padding-top: 14rem;
     

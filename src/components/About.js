@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { StaticImage } from 'gatsby-plugin-image';
-import "../styles/main.scss"
+import "../styles/about.scss"
 import Headline from './Headline'
 import { FaUserTie } from "react-icons/fa";
 import { gsap, Power3 } from "gsap";

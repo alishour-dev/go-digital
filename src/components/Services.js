@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import ServiceCard from './ServiceCard'
-import "../styles/main.scss"
+import "../styles/services.scss"
 import { CgAdd, CgRemove } from "react-icons/cg";
 
 import { gsap, Power3 } from "gsap";
@@ -11,7 +11,7 @@ import img2 from "../images/services/service-2.svg"
 import img3 from "../images/services/service-3.svg"
 import img4 from "../images/services/service-4.svg"
 import img5 from "../images/services/service-5.svg"
-import img6 from "../images/services/service-6.svg"
+import img6 from "../images/services/service-6.png"
 import img7 from "../images/services/service-7.svg"
 import img8 from "../images/services/service-8.svg"
 import img9 from "../images/services/service-9.svg"

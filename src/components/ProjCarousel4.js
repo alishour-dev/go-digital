@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import { GatsbyImage } from "gatsby-plugin-image"
-import "../styles/main.scss"
+import "../styles/projects.scss"
 import { Carousel } from 'react-bootstrap'
 
 const ProjCarousel4 = ( { alt, carouselClass, fadeSlide, controls, touch, indicators, interval, variant } ) => {
