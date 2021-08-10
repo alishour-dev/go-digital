@@ -1,28 +1,10 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image';
 import "../styles/about.scss"
 import Headline from './Headline'
 import { FaUserTie } from "react-icons/fa";
-import { gsap, Power3 } from "gsap";
 
 const About = () => {
-
-    useEffect(() => {
-
-        let t1 = gsap.timeline({
-            scrollTrigger: {
-                trigger: ".about",
-                start: "top 80%",
-                end: "bottom",
-                toggleActions: "restart complete reverse reset"
-            }
-        });
-
-        t1.from(".headline2", { y: "-100", opacity: 0, duration: 2, ease: Power3.easeOut})
-        .from(".left-about", { x: "-200", opacity: 0, duration: 2, ease: Power3.easeOut})
-        .from(".right-about", {x: "200", opacity: 0, duration: 2, ease: Power3.easeOut}, "-=2")
-
-    });
 
     return (
         <div className="about" id="about">

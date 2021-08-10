@@ -13,7 +13,6 @@ import ProjCarousel7 from './ProjCarousel7';
 import ProjCarousel8 from './ProjCarousel8';
 import CardStructure from './CardStructure';
 
-
 const Projects = () => {
 
     const [toggle, setToggle] = useState(false)
@@ -28,6 +27,7 @@ const Projects = () => {
                 title={'What we did?'}
                 icon={<MdWork className="headline-icon"/>}
                 info={'Check out some of our featured work, and get inspired!'}
+                customClass = {"headline3"}
             />
             <div className="projects-container">
                 <div className="top-projects">

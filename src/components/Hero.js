@@ -1,26 +1,15 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Link, parsePath } from "gatsby"
+import { StaticImage } from 'gatsby-plugin-image';
 import "../styles/hero.scss"
 import { BsChevronDoubleDown, BsBriefcaseFill } from "react-icons/bs";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 
-import { gsap, Power3 } from "gsap";
-
 // Images
 import heroImg from "../images/hero-img.svg"
-import heroHand from "../images/hero-hand.svg"
 import Headline from './Headline';
 
 const Hero = () => {
-
-    useEffect(() => {
-
-        let t1 = gsap.timeline();
-
-        t1.from(".left-hero", { x: "-150", opacity: 0, duration: 2, ease: Power3.easeOut})
-        .from(".right-hero", {x: "150", opacity: 0, duration: 2, ease: Power3.easeOut}, "-=2")
-        .from(".bottom", {y: "150", opacity: 0, duration: 2, ease: Power3.easeOut}, "-=1")
-    })
 
     return (
         <div className="hero">
@@ -44,7 +33,12 @@ const Hero = () => {
                     info={'We create customer relationships that last forever!'}
                 />
             </div>
-            <img className="hero-hand" src={heroHand} alt="It's Perfect!" />
+            <StaticImage 
+                className="hero-hand"
+                src="../images/hero-hand.png"
+                alt="It's Perfect!"
+                placeholder="blurred"
+            />
         </div>
     )
 }

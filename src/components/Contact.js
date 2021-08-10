@@ -6,7 +6,6 @@ import phone from "../images/phone.svg"
 import guy from "../images/guy.svg"
 import { FcIdea } from "react-icons/fc";
 
-
 function encode(data) {
     return Object.keys(data)
       .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
@@ -34,7 +33,7 @@ const Contact = () => {
         })
           .then(() => navigate(form.getAttribute('action')))
           .catch((error) => alert(error))
-      }
+    }
 
     return (
 
@@ -43,6 +42,7 @@ const Contact = () => {
                 title={'Got an idea?'}
                 icon={<FcIdea className="headline-icon"/>}
                 info={'Let’s help you grow and boost your sales!'}
+                customClass = {"headline4"}
             />
             <div className="contact-container">
                 <div className="left-info">
