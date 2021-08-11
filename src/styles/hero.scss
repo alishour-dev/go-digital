@@ -86,9 +86,10 @@
             width: 50%;
             height: 100%;
             padding: 0;
-            margin-top: -8rem;
     
             img {
+                margin-top: -8rem;
+                height: unset;
                 width: 80%;
                 max-width: 40rem;
             }
@@ -96,7 +97,7 @@
     
         .left-hero {
             width: 50%;
-            height: 32rem;
+            height: 40rem;
             margin: 0;
 
             .cta {
@@ -104,7 +105,7 @@
                 flex-direction: column;
 
                 a {
-                    margin-bottom: 3rem;
+                    margin-bottom: 4rem;
                 }
     
                 .scroll {
@@ -163,7 +164,7 @@
                 flex-direction: row;
 
                 a {
-                    margin: 0 4rem 0 -2rem;
+                    margin: 0 4rem 0 0;
                 }
 
                 .scroll {
@@ -173,9 +174,9 @@
         }
 
         .right-hero {
-            margin-top: -14rem;
     
             img {
+                margin-top: -14rem;
                 max-width: 36rem;
             }
         }
