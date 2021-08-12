@@ -4,6 +4,7 @@ module.exports = {
     description: `Welcome to Go Digital Design website! We're a talented group of digital enthusiasts, and we'll help you boost your sales and reputation by creating powerful marketing campaigns, design and create engaging content for your social media presence, and build a better fruitful future for your company!`,
     author: `@iamshour`,
     siteUrl: `https://godigitaldesign.com/`,
+    image: `https://iamshour.github.io/hosted-assets/godigital-preview.png`
   },
   plugins: [
     `gatsby-plugin-sass`,
