@@ -2,7 +2,6 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ProjCarousel7 from "../components/ProjCarousel7"
-// import "../styles/proj-pages.scss"
 import ProjNav from "../components/projNav"
 
 const Project7 = () => (

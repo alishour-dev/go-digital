@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import "../styles/projects.scss"
 import Headline from './Headline'
 import { MdWork } from "react-icons/md";
 import { CgAdd, CgRemove } from "react-icons/cg";

@@ -1,6 +1,5 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image';
-// import "../styles/about.scss"
 import Headline from './Headline'
 import { FaUserTie } from "react-icons/fa";
 

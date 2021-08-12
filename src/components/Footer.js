@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "gatsby"
 import { FaFacebookF, FaWhatsapp, FaInstagram, FaRegCopyright } from "react-icons/fa";
-// import "../styles/footer.scss"
 import Logo from "../images/logo.svg"
 
 

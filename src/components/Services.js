@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import ServiceCard from './ServiceCard'
-// import "../styles/services.scss"
 import { CgAdd, CgRemove } from "react-icons/cg";
 
 // Images
