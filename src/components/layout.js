@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
-import "../styles/main.scss"
+import "../styles/resets.scss"
 
 const Layout = ({ children, servicesPath, aboutPath, projectsPath, contactPath }) => {
 

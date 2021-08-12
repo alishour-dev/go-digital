@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from "gatsby"
 import { FaFacebookF, FaWhatsapp, FaInstagram, FaRegCopyright } from "react-icons/fa";
 import Logo from "../images/logo.svg"
+import "../styles/footer.scss";
 
 
 const Footer = () => {

@@ -3,6 +3,7 @@ import { Link, parsePath } from "gatsby"
 import { StaticImage } from 'gatsby-plugin-image';
 import { BsChevronDoubleDown, BsBriefcaseFill } from "react-icons/bs";
 import { AiOutlineThunderbolt } from "react-icons/ai";
+import "../styles/hero.scss";
 
 // Images
 import heroImg from "../images/hero-img.svg"

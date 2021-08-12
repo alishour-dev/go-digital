@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Headline from './Headline'
 import { MdWork } from "react-icons/md";
+import "../styles/projects.scss";
 import { CgAdd, CgRemove } from "react-icons/cg";
 import ProjCarousel1 from './ProjCarousel1';
 import ProjCarousel2 from './ProjCarousel2';

@@ -3,6 +3,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import ProjCarousel4 from "../components/ProjCarousel4"
 import ProjNav from "../components/projNav"
+import "../styles/proj-pages.scss";
 
 const Project4 = () => (
     <Layout

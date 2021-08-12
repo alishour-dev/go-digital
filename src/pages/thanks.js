@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import { GoHome } from "react-icons/go";
 import { Link } from 'gatsby';
+import "../styles/thanks.scss";
 
 const thanks = () => {
     return (

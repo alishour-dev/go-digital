@@ -4,6 +4,7 @@ import Headline from './Headline'
 import phone from "../images/phone.svg"
 import guy from "../images/guy.svg"
 import { FcIdea } from "react-icons/fc";
+import "../styles/contact.scss";
 
 function encode(data) {
     return Object.keys(data)

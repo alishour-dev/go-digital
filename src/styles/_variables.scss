@@ -1,0 +1,41 @@
+$bg-dark: #313031;
+$bg-light: #f2f2f2;
+$bg-gold: #F3BF1E;
+$bg-gold-dark: #AC8302;
+$font-main: 'Open Sans', sans-serif;
+$font-second: 'Skranji', cursive;
+$gradient: linear-gradient(180deg, #F2F2F2 0%, #F3BF1E 100%);
+$gradient2: linear-gradient(180deg, #F3BF1E 0%, #F2F2F2 100%);
+
+@mixin flexy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin svg-hov {
+    &:hover {
+        transition: all .3s ease-in;
+        filter: drop-shadow(1px 1px 5px rgba(0, 0, 0, .4));
+    }
+    transition: all .5s ease-out;
+}
+
+@mixin box-hov {
+    &:hover {
+        transition: all .3s ease-in;
+        box-shadow: 1px 1px 8px rgba(0, 0, 0, .4);
+    }
+    transition: all .5s ease-out;
+}
+
+@mixin ic-mob {
+    font-size: 2.2rem;
+}
+
+@media screen and (min-width: 1080px) {
+
+    @mixin ic-mob {
+        font-size: 2.4rem;
+    }
+}

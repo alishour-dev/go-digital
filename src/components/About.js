@@ -2,6 +2,7 @@ import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image';
 import Headline from './Headline'
 import { FaUserTie } from "react-icons/fa";
+import "../styles/about.scss";
 
 const About = () => {
 

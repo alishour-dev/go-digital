@@ -1,50 +1,63 @@
 {
-  "hash": "7239a283d9cec2cd258c",
+  "hash": "8c60dbb6e27bcd565e1d",
   "publicPath": "/",
   "outputPath": "C:\\Users\\iamshour\\Desktop\\go-digital",
   "assetsByChunkName": {
     "polyfill": [
-      "polyfill.js"
+      "polyfill.js",
+      "polyfill.870e81e788473b4cc9e5.hot-update.js"
     ],
     "commons": [
       "commons.css",
-      "commons.js"
+      "commons.js",
+      "commons.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---cache-dev-404-page-js": [
       "component---cache-dev-404-page-js.js"
     ],
     "component---src-pages-404-js": [
-      "component---src-pages-404-js.js"
+      "component---src-pages-404-js.js",
+      "component---src-pages-404-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js.js"
+      "component---src-pages-index-js.js",
+      "component---src-pages-index-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-project-1-js": [
-      "component---src-pages-project-1-js.js"
+      "component---src-pages-project-1-js.js",
+      "component---src-pages-project-1-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-project-2-js": [
-      "component---src-pages-project-2-js.js"
+      "component---src-pages-project-2-js.js",
+      "component---src-pages-project-2-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-project-3-js": [
-      "component---src-pages-project-3-js.js"
+      "component---src-pages-project-3-js.js",
+      "component---src-pages-project-3-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-project-4-js": [
-      "component---src-pages-project-4-js.js"
+      "component---src-pages-project-4-js.js",
+      "component---src-pages-project-4-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-project-5-js": [
-      "component---src-pages-project-5-js.js"
+      "component---src-pages-project-5-js.js",
+      "component---src-pages-project-5-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-project-6-js": [
-      "component---src-pages-project-6-js.js"
+      "component---src-pages-project-6-js.js",
+      "component---src-pages-project-6-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-project-7-js": [
-      "component---src-pages-project-7-js.js"
+      "component---src-pages-project-7-js.js",
+      "component---src-pages-project-7-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-project-8-js": [
-      "component---src-pages-project-8-js.js"
+      "component---src-pages-project-8-js.js",
+      "component---src-pages-project-8-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "component---src-pages-thanks-js": [
-      "component---src-pages-thanks-js.js"
+      "component---src-pages-thanks-js.js",
+      "component---src-pages-thanks-js.870e81e788473b4cc9e5.hot-update.js"
     ],
     "framework": [
       "framework.js"
@@ -54,8 +67,8 @@
     {
       "type": "assets by status",
       "cached": true,
-      "filteredChildren": 30,
-      "size": 64441478
+      "filteredChildren": 45,
+      "size": 64530095
     }
   ],
   "namedChunkGroups": {
@@ -67,6 +80,9 @@
       "assets": [
         {
           "name": "polyfill.js"
+        },
+        {
+          "name": "polyfill.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -91,6 +107,9 @@
         },
         {
           "name": "commons.js"
+        },
+        {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -135,7 +154,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-404-js.js"
+        },
+        {
+          "name": "component---src-pages-404-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -163,7 +188,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-index-js.js"
+        },
+        {
+          "name": "component---src-pages-index-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -191,7 +222,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-project-1-js.js"
+        },
+        {
+          "name": "component---src-pages-project-1-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -219,7 +256,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-project-2-js.js"
+        },
+        {
+          "name": "component---src-pages-project-2-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -247,7 +290,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-project-3-js.js"
+        },
+        {
+          "name": "component---src-pages-project-3-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -275,7 +324,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-project-4-js.js"
+        },
+        {
+          "name": "component---src-pages-project-4-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -303,7 +358,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-project-5-js.js"
+        },
+        {
+          "name": "component---src-pages-project-5-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -331,7 +392,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-project-6-js.js"
+        },
+        {
+          "name": "component---src-pages-project-6-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -359,7 +426,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-project-7-js.js"
+        },
+        {
+          "name": "component---src-pages-project-7-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -387,7 +460,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-project-8-js.js"
+        },
+        {
+          "name": "component---src-pages-project-8-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -415,7 +494,13 @@
           "name": "commons.js"
         },
         {
+          "name": "commons.870e81e788473b4cc9e5.hot-update.js"
+        },
+        {
           "name": "component---src-pages-thanks-js.js"
+        },
+        {
+          "name": "component---src-pages-thanks-js.870e81e788473b4cc9e5.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -431,14 +516,16 @@
     {
       "id": "polyfill",
       "files": [
-        "polyfill.js"
+        "polyfill.js",
+        "polyfill.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "commons",
       "files": [
         "commons.css",
-        "commons.js"
+        "commons.js",
+        "commons.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
@@ -474,67 +561,78 @@
     {
       "id": "component---src-pages-404-js",
       "files": [
-        "component---src-pages-404-js.js"
+        "component---src-pages-404-js.js",
+        "component---src-pages-404-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-index-js",
       "files": [
-        "component---src-pages-index-js.js"
+        "component---src-pages-index-js.js",
+        "component---src-pages-index-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-project-1-js",
       "files": [
-        "component---src-pages-project-1-js.js"
+        "component---src-pages-project-1-js.js",
+        "component---src-pages-project-1-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-project-2-js",
       "files": [
-        "component---src-pages-project-2-js.js"
+        "component---src-pages-project-2-js.js",
+        "component---src-pages-project-2-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-project-3-js",
       "files": [
-        "component---src-pages-project-3-js.js"
+        "component---src-pages-project-3-js.js",
+        "component---src-pages-project-3-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-project-4-js",
       "files": [
-        "component---src-pages-project-4-js.js"
+        "component---src-pages-project-4-js.js",
+        "component---src-pages-project-4-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-project-5-js",
       "files": [
-        "component---src-pages-project-5-js.js"
+        "component---src-pages-project-5-js.js",
+        "component---src-pages-project-5-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-project-6-js",
       "files": [
-        "component---src-pages-project-6-js.js"
+        "component---src-pages-project-6-js.js",
+        "component---src-pages-project-6-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-project-7-js",
       "files": [
-        "component---src-pages-project-7-js.js"
+        "component---src-pages-project-7-js.js",
+        "component---src-pages-project-7-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-project-8-js",
       "files": [
-        "component---src-pages-project-8-js.js"
+        "component---src-pages-project-8-js.js",
+        "component---src-pages-project-8-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
       "id": "component---src-pages-thanks-js",
       "files": [
-        "component---src-pages-thanks-js.js"
+        "component---src-pages-thanks-js.js",
+        "component---src-pages-thanks-js.870e81e788473b4cc9e5.hot-update.js"
       ]
     },
     {
