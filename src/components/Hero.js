@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, parsePath } from "gatsby"
 import { StaticImage } from 'gatsby-plugin-image';
-import "../styles/hero.scss"
+// import "../styles/hero.scss"
 import { BsChevronDoubleDown, BsBriefcaseFill } from "react-icons/bs";
 import { AiOutlineThunderbolt } from "react-icons/ai";
 

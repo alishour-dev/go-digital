@@ -1,0 +1,547 @@
+{
+  "hash": "7239a283d9cec2cd258c",
+  "publicPath": "/",
+  "outputPath": "C:\\Users\\iamshour\\Desktop\\go-digital",
+  "assetsByChunkName": {
+    "polyfill": [
+      "polyfill.js"
+    ],
+    "commons": [
+      "commons.css",
+      "commons.js"
+    ],
+    "component---cache-dev-404-page-js": [
+      "component---cache-dev-404-page-js.js"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js.js"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js.js"
+    ],
+    "component---src-pages-project-1-js": [
+      "component---src-pages-project-1-js.js"
+    ],
+    "component---src-pages-project-2-js": [
+      "component---src-pages-project-2-js.js"
+    ],
+    "component---src-pages-project-3-js": [
+      "component---src-pages-project-3-js.js"
+    ],
+    "component---src-pages-project-4-js": [
+      "component---src-pages-project-4-js.js"
+    ],
+    "component---src-pages-project-5-js": [
+      "component---src-pages-project-5-js.js"
+    ],
+    "component---src-pages-project-6-js": [
+      "component---src-pages-project-6-js.js"
+    ],
+    "component---src-pages-project-7-js": [
+      "component---src-pages-project-7-js.js"
+    ],
+    "component---src-pages-project-8-js": [
+      "component---src-pages-project-8-js.js"
+    ],
+    "component---src-pages-thanks-js": [
+      "component---src-pages-thanks-js.js"
+    ],
+    "framework": [
+      "framework.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "assets by status",
+      "cached": true,
+      "filteredChildren": 30,
+      "size": 64441478
+    }
+  ],
+  "namedChunkGroups": {
+    "polyfill": {
+      "name": "polyfill",
+      "chunks": [
+        "polyfill"
+      ],
+      "assets": [
+        {
+          "name": "polyfill.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "commons": {
+      "name": "commons",
+      "chunks": [
+        "framework",
+        "commons"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---cache-dev-404-page-js": {
+      "name": "component---cache-dev-404-page-js",
+      "chunks": [
+        "component---cache-dev-404-page-js"
+      ],
+      "assets": [
+        {
+          "name": "component---cache-dev-404-page-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "name": "component---src-pages-404-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-404-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-404-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "name": "component---src-pages-index-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-index-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-index-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 10,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-project-1-js": {
+      "name": "component---src-pages-project-1-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-project-1-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-project-1-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-project-2-js": {
+      "name": "component---src-pages-project-2-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-project-2-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-project-2-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-project-3-js": {
+      "name": "component---src-pages-project-3-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-project-3-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-project-3-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-project-4-js": {
+      "name": "component---src-pages-project-4-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-project-4-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-project-4-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-project-5-js": {
+      "name": "component---src-pages-project-5-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-project-5-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-project-5-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-project-6-js": {
+      "name": "component---src-pages-project-6-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-project-6-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-project-6-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-project-7-js": {
+      "name": "component---src-pages-project-7-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-project-7-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-project-7-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-project-8-js": {
+      "name": "component---src-pages-project-8-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-project-8-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-project-8-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-thanks-js": {
+      "name": "component---src-pages-thanks-js",
+      "chunks": [
+        "framework",
+        "commons",
+        "component---src-pages-thanks-js"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "component---src-pages-thanks-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "polyfill",
+      "files": [
+        "polyfill.js"
+      ]
+    },
+    {
+      "id": "commons",
+      "files": [
+        "commons.css",
+        "commons.js"
+      ]
+    },
+    {
+      "id": "_cache_dummy_js",
+      "files": [
+        "_cache_dummy_js.js"
+      ]
+    },
+    {
+      "id": "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js",
+      "files": [
+        "node_modules_objectFitPolyfill_dist_objectFitPolyfill_min_js.js"
+      ]
+    },
+    {
+      "id": "node_modules_gatsby-plugin-image_dist_lazy-hydrate-6a6da979_js",
+      "files": [
+        "node_modules_gatsby-plugin-image_dist_lazy-hydrate-6a6da979_js.js"
+      ]
+    },
+    {
+      "id": "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js",
+      "files": [
+        "node_modules_gatsby-plugin-image_dist_intersection-observer-6b794dd8_js.js"
+      ]
+    },
+    {
+      "id": "component---cache-dev-404-page-js",
+      "files": [
+        "component---cache-dev-404-page-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-404-js",
+      "files": [
+        "component---src-pages-404-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-index-js",
+      "files": [
+        "component---src-pages-index-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-project-1-js",
+      "files": [
+        "component---src-pages-project-1-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-project-2-js",
+      "files": [
+        "component---src-pages-project-2-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-project-3-js",
+      "files": [
+        "component---src-pages-project-3-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-project-4-js",
+      "files": [
+        "component---src-pages-project-4-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-project-5-js",
+      "files": [
+        "component---src-pages-project-5-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-project-6-js",
+      "files": [
+        "component---src-pages-project-6-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-project-7-js",
+      "files": [
+        "component---src-pages-project-7-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-project-8-js",
+      "files": [
+        "component---src-pages-project-8-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-thanks-js",
+      "files": [
+        "component---src-pages-thanks-js.js"
+      ]
+    },
+    {
+      "id": "framework",
+      "files": [
+        "framework.js"
+      ]
+    }
+  ]
+}

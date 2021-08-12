@@ -11,7 +11,7 @@ import { gsap, Power3 } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger);
 
-const IndexPage = () => (
+const IndexPage = () => {
 
   useEffect(() => {
 
@@ -63,9 +63,10 @@ const IndexPage = () => (
     t5.from(".headline4", { y: "-100", opacity: 0, duration: 2, ease: Power3.easeOut})
     .from(".contact-container", { y: "200", opacity: 0, duration: 1, ease: Power3.easeOut}, "-=1")
 
-  }, []),
+  }, [])
   
-  <Layout
+  return (
+    <Layout
     servicesPath = {'#services'}
     aboutPath = {'#about'}
     projectsPath = {'#projects'}
@@ -79,6 +80,7 @@ const IndexPage = () => (
     <Contact />
 
   </Layout>
-)
+  )
+}
 
 export default IndexPage
